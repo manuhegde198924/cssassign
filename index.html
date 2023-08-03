@@ -1,29 +1,44 @@
-
-
+/* file: index.html */
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-      *{margin:0;}
-      body{
-        color:Red;
-        background-color:lightGrey;
-        font-family:sans-serif;
-        border-style:solid;
-        border-width 2px;
-        border: color #999990;
-      }
-      h1{font-size:18pt}
-      p{font-size:12pt}
-</style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cafe Menu</title>
+  <link href="styles.css" rel="stylesheet"/>
 </head>
 <body>
-    <img src="https://t4.ftcdn.net/jpg/01/89/74/27/360_F_189742752_5TorS7GLRNJgvbYoSDMX8wmqsyWLsYKo.jpg"/>
-    <h1>FROM MANOJ HEGDE</h1>
-    <P>MY COFFEE CHAIN STARTUPAT AN AFFORBABLE PAGE DO VISIT</P>
-    <A HREF="https://www.starbucks.in/dashboard">AmazinG CoFFee</A>
+  <div class="menu">
+    <header>
+      <h1>CAMPER CAFE</h1>
+      <p>Est. 2020</p>
+    </header>
+    <main>
+      <section>
+        <h2>Coffee</h2>
+        <article class="item">
+          <p class="flavor">French Vanilla</p><p class="price">3.00</p>
+        </article>
+        <article class="item">
+          <p class="flavor">Caramel Macchiato</p><p class="price">3.75</p>
+        </article>
+        <article class="item">
+          <p class="flavor">Pumpkin Spice</p><p class="price">3.50</p>
+        </article>
+        <article class="item">
+          <p class="flavor">Hazelnut</p><p class="price">4.00</p>
+        </article>
+        <article class="item">
+          <p class="flavor">Mocha</p><p class="price">4.50</p>
+        </article>
+      </section>
+      <section>
+        <h2>Desserts</h2>
+        <article class="item">
+          <p class="dessert">Donut</p><p class="price">1.50</p>
+        </article>
+      </section>
+    </main>
+  </div>
 </body>
 </html>
